@@ -7,17 +7,17 @@ import Privacy from "./Privacy";
 
 function App() {
   return (
-    <div className="bg-white h-screen w-full max-w-[450px] mx-auto overflow-y-scroll relative">
+    <div className="bg-white h-screen w-full mx-auto relative">
       {/* Header */}
 
       <img className=" fixed h-10 right-0 top-[50%]" src="https://res.cloudinary.com/dhj9wvmmo/image/upload/v1716309568/telegram-rummybonusapp_dpm5vy.png" alt="telegram" />
 
-      <div className="header">
-        <div className="bg-red-300 h-12 flex justify-between items-center px-4">
+      <div className="header h-[10%]">
+        <div className="bg-red-300 h-[55%] flex justify-between items-center px-4">
           <h1 className="text-xl font-bold">Logo</h1>
           <h1 className="text-xl font-bold">Share</h1>
         </div>
-        <nav className="bg-blue-300 h-8 flex justify-between items-center">
+        <nav className="bg-blue-300 h-[45%] flex justify-between items-center">
           <Link
             className="bg-red-400 hover:bg-red-300 h-full w-full flex items-center justify-center"
             to="/"

@@ -2,7 +2,7 @@ import React from 'react'
 
 function Privacy() {
   return (
-    <div className="p-5">
+    <div className="p-5 h-[90%] overflow-y-scroll">
       <p className="text-sm">
         दोस्तों अगर आप लोग भी New Rummy Application को डाउनलोड करने में रुचि
         रखते हैं और आप लोग भी रमी गेम खेलने के शौकीन है, तो आप लोग RummyBonusApp

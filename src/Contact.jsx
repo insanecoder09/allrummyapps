@@ -2,7 +2,7 @@ import React from "react";
 
 function Contact() {
   return (
-    <div className="p-5">
+    <div className="p-5 h-[90%]">
       <p className="text-sm">
         If you want to get any kind of advertising or promotion, you can email
         us at the address below and talk to us about promotion and

@@ -172,7 +172,7 @@ function Home() {
   }, [selected, searched]);
 
   return (
-    <div>
+    <div className=" overflow-y-scroll h-[90%]">
       <div className="banner w-full h-36 bg-blue-300"></div>
 
       {/* Searching */}
@@ -238,7 +238,7 @@ function Home() {
                   <h1 className="text-[14px] ">{app.name}</h1>
                   <div className="flex items-center gap-1 text-[10px] ">
                     <h1 className="text-yellow-400">D: {app.downloads}</h1>
-                    <div className="h-4 w-[1px] bg-black"></div>
+                    <div className="h-3 w-[1px] bg-zinc-500"></div>
                     <h1>Bonus {app.bonus}</h1>
                   </div>
                   <h1 className=" text-green-700 text-[12px] font-bold">
