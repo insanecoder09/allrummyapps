@@ -7,7 +7,7 @@ import Privacy from "./Privacy";
 
 function App() {
   return (
-    <div className="bg-white h-screen max-w-96 mx-auto overflow-y-scroll relative">
+    <div className="bg-white h-screen max-w-96 w-full mx-auto overflow-y-scroll relative">
       {/* Header */}
 
       <img className=" fixed h-10 right-0 top-[50%]" src="https://res.cloudinary.com/dhj9wvmmo/image/upload/v1716309568/telegram-rummybonusapp_dpm5vy.png" alt="telegram" />
