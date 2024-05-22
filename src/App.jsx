@@ -1,5 +1,5 @@
 import React from "react";
-import { Link, Route, Routes } from "react-router-dom";
+import { NavLink, Route, Routes } from "react-router-dom";
 import Home from "./Home";
 import About from "./About";
 import Contact from "./Contact";
@@ -7,41 +7,41 @@ import Privacy from "./Privacy";
 
 function App() {
   return (
-    <div className="bg-white h-dvh w-full mx-auto relative">
+    <div className="bg-white h-screen w-full mx-auto relative">
       {/* Header */}
 
-      <img className=" fixed h-10 right-0 top-[50%]" src="https://res.cloudinary.com/dhj9wvmmo/image/upload/v1716309568/telegram-rummybonusapp_dpm5vy.png" alt="telegram" />
+      <img className=" fixed h-10 right-0 top-[50%] z-10" src="https://res.cloudinary.com/dhj9wvmmo/image/upload/v1716309568/telegram-rummybonusapp_dpm5vy.png" alt="telegram" />
 
       <div className="header h-[10%]">
-        <div className="bg-red-300 h-[55%] flex justify-between items-center px-4">
-          <h1 className="text-xl font-bold">Logo</h1>
+        <div className="bg-[#003A92] text-white h-[55%] flex justify-between items-center px-4">
+          <h1 className="text-md font-bold">AllRummyApps</h1>
           <h1 className="text-xl font-bold">Share</h1>
         </div>
-        <nav className="bg-blue-300 h-[45%] flex justify-between items-center">
-          <Link
-            className="bg-red-400 hover:bg-red-300 h-full w-full flex items-center justify-center"
+        <nav className="bg-white h-[45%] flex justify-between items-center">
+          <NavLink
+            className="hover:bg-zinc-700 hover:text-white h-full w-full flex items-center justify-center"
             to="/"
           >
             Home
-          </Link>
-          <Link
-            className="bg-red-400 hover:bg-red-300 h-full w-full flex items-center justify-center"
+          </NavLink>
+          <NavLink
+            className="hover:bg-zinc-700 hover:text-white h-full w-full flex items-center justify-center"
             to="/about"
           >
             About
-          </Link>
-          <Link
-            className="bg-red-400 hover:bg-red-300 h-full w-full flex items-center justify-center"
+          </NavLink>
+          <NavLink
+            className="hover:bg-zinc-700 hover:text-white h-full w-full flex items-center justify-center"
             to="/privacy"
           >
             Privacy
-          </Link>
-          <Link
-            className="bg-red-400 hover:bg-red-300 h-full w-full flex items-center justify-center"
+          </NavLink>
+          <NavLink
+            className="hover:bg-zinc-700 hover:text-white h-full w-full flex items-center justify-center"
             to="/contact  "
           >
             Contact
-          </Link>
+          </NavLink>
         </nav>
       </div>
 
