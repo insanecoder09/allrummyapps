@@ -1,9 +1,17 @@
 import React from "react";
-import { FaCheckCircle } from "react-icons/fa";
-import { IoTrophySharp } from "react-icons/io5";
+import {
+  FaCheckCircle,
+  FaFacebook,
+  FaTelegram,
+  FaYoutube,
+} from "react-icons/fa";
+import { IoPerson, IoTrophySharp } from "react-icons/io5";
+import { MdCall, MdPrivacyTip } from "react-icons/md";
 import { RiStarSFill } from "react-icons/ri";
+import { useNavigate } from "react-router-dom";
 
 function Games() {
+  const navigate = useNavigate();
   const games = [
     {
       name: "Rummy East",
@@ -298,6 +306,56 @@ function Games() {
             </div>
           );
         })}
+      </div>
+
+      {/* footer */}
+      <div className="bg-blue-600 w-full p-3 flex justify-center flex-col gap-3">
+        <div className="flex flex-wrap justify-center gap-2">
+          <a className="px-3 py-[3px] rounded text-[13px] cursor-pointer flex items-center justify-center gap-1 w-fit text-white bg-blue-800">
+            <FaFacebook />
+          </a>
+          <a className="px-2 py-[3px] rounded text-[13px] cursor-pointer flex items-center justify-center gap-1 w-fit bg-[#319edd] text-white">
+            <FaTelegram /> Join
+          </a>
+          <a className="px-2 py-[3px] rounded text-[13px] cursor-pointer flex items-center justify-center gap-1 w-fit bg-[#ec3636] text-white">
+            <FaYoutube />
+          </a>
+        </div>
+        <hr />
+        <div className="flex flex-wrap justify-center gap-2">
+          <button
+            onClick={() => navigate("/about")}
+            className="px-2 py-[3px] rounded text-[13px] cursor-pointer flex items-center justify-center gap-1 w-fit border text-white border-white"
+          >
+            <IoPerson />
+            About Us
+          </button>
+          <button
+            onClick={() => navigate("/contact")}
+            className="px-2 py-[3px] rounded text-[13px] cursor-pointer flex items-center justify-center gap-1 w-fit border text-white border-white"
+          >
+            <MdCall />
+            Contact Us
+          </button>
+          <button
+            onClick={() => navigate("/privacy")}
+            className="px-2 py-[3px] rounded text-[13px] cursor-pointer flex items-center justify-center gap-1 w-fit border text-white border-white"
+          >
+            <MdPrivacyTip />
+            Privacy Policy
+          </button>
+          <button
+            onClick={() => navigate("/tac")}
+            className="px-2 py-[3px] rounded text-[13px] cursor-pointer flex items-center justify-center gap-1 w-fit border text-white border-white"
+          >
+            <MdPrivacyTip />
+            Terms And Condition
+          </button>
+        </div>
+        <hr />
+        <h1 className="text-white text-xs text-center">
+          Copyright ©️ AllRummyApps.com All Rights Reserved
+        </h1>
       </div>
     </div>
   );

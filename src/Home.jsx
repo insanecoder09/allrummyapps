@@ -1,8 +1,19 @@
 import React, { useEffect, useState } from "react";
-import { FaCheckCircle } from "react-icons/fa";
+import { BsGraphUpArrow } from "react-icons/bs";
+import {
+  FaCheckCircle,
+  FaFacebook,
+  FaQrcode,
+  FaTelegram,
+  FaYoutube,
+} from "react-icons/fa";
+import { IoGift, IoPerson } from "react-icons/io5";
+import { MdCall, MdDownloadForOffline, MdPrivacyTip } from "react-icons/md";
 import { RiStarSFill } from "react-icons/ri";
+import { useNavigate } from "react-router-dom";
 
 function Home() {
+  const navigate = useNavigate();
   const bestForAllGames = [
     {
       name: "Rummy East",
@@ -568,8 +579,9 @@ function Home() {
           <a
             target="_blank"
             href={bestForAllGames[1].downloadLink}
-            className="px-2 py-[2px] rounded download text-[10px] cursor-pointer mt-2"
+            className="px-2 py-[3px] rounded download text-[10px] cursor-pointer mt-2 flex items-center justify-center gap-1"
           >
+            <MdDownloadForOffline />
             Download
           </a>
         </div>
@@ -592,8 +604,9 @@ function Home() {
           <a
             target="_blank"
             href={bestForAllGames[0].downloadLink}
-            className="px-2 py-[2px] rounded download text-[13px] cursor-pointer mt-2"
+            className="px-2 py-[3px] rounded download text-[13px] cursor-pointer mt-2 flex items-center justify-center gap-1"
           >
+            <MdDownloadForOffline />
             Download
           </a>
         </div>
@@ -616,8 +629,9 @@ function Home() {
           <a
             target="_blank"
             href={bestForAllGames[2].downloadLink}
-            className="px-2 py-[2px] rounded download text-[10px] cursor-pointer mt-2"
+            className="px-2 py-[3px] rounded download text-[10px] cursor-pointer mt-2 flex items-center justify-center gap-1"
           >
+            <MdDownloadForOffline />
             Download
           </a>
         </div>
@@ -637,38 +651,41 @@ function Home() {
       </div>
 
       {/* Buttons */}
-      <div className="h-8 flex mt-3 px-1 gap-1 text-sm ">
+      <div className="h-8 flex mt-3 px-1 gap-1 text-xs">
         <button
           onClick={() => {
             setSelected(0);
             setSearched("");
           }}
-          className={`w-full h-full rounded-md ${
-            selected == 0 ? "bg-blue-300" : "bg-red-400"
+          className={`w-full h-full rounded-md flex justify-center items-center gap-1 border border-zinc-400 ${
+            selected == 0 ? "bg-blue-600 text-white" : "bg-white"
           }`}
         >
-          Best For All
+          <BsGraphUpArrow />
+          Best Apps
         </button>
         <button
           onClick={() => {
             setSelected(1);
             setSearched("");
           }}
-          className={`w-full h-full rounded-md ${
-            selected == 1 ? "bg-blue-300" : "bg-red-400"
+          className={`w-full h-full rounded-md flex justify-center items-center gap-1 border border-zinc-400 ${
+            selected == 1 ? "bg-blue-600 text-white" : "bg-white"
           }`}
         >
-          New App
+          <IoGift />
+          New Apps
         </button>
         <button
           onClick={() => {
             setSelected(2);
             setSearched("");
           }}
-          className={`w-full h-full rounded-md ${
-            selected == 2 ? "bg-blue-300" : "bg-red-400"
+          className={`w-full h-full rounded-md flex justify-center items-center gap-1 border border-zinc-400 ${
+            selected == 2 ? "bg-blue-600 text-white" : "bg-white"
           }`}
         >
+          <FaQrcode />
           Teenpatti Apps
         </button>
       </div>
@@ -698,13 +715,64 @@ function Home() {
               <a
                 target="_blank"
                 href={app.downloadLink}
-                className="px-2 py-[2px] rounded download text-[13px] cursor-pointer"
+                className="px-2 py-[3px] rounded download text-[13px] cursor-pointer flex items-center justify-center gap-1"
               >
+                <MdDownloadForOffline />
                 Download
               </a>
             </div>
           );
         })}
+      </div>
+
+      {/* footer */}
+      <div className="bg-blue-600 w-full p-3 flex justify-center flex-col gap-3">
+        <div className="flex flex-wrap justify-center gap-2">
+          <a className="px-3 py-[3px] rounded text-[13px] cursor-pointer flex items-center justify-center gap-1 w-fit text-white bg-blue-800">
+            <FaFacebook />
+          </a>
+          <a className="px-2 py-[3px] rounded text-[13px] cursor-pointer flex items-center justify-center gap-1 w-fit bg-[#319edd] text-white">
+            <FaTelegram /> Join
+          </a>
+          <a className="px-2 py-[3px] rounded text-[13px] cursor-pointer flex items-center justify-center gap-1 w-fit bg-[#ec3636] text-white">
+            <FaYoutube />
+          </a>
+        </div>
+        <hr />
+        <div className="flex flex-wrap justify-center gap-2">
+          <button
+            onClick={() => navigate("/about")}
+            className="px-2 py-[3px] rounded text-[13px] cursor-pointer flex items-center justify-center gap-1 w-fit border text-white border-white"
+          >
+            <IoPerson />
+            About Us
+          </button>
+          <button
+            onClick={() => navigate("/contact")}
+            className="px-2 py-[3px] rounded text-[13px] cursor-pointer flex items-center justify-center gap-1 w-fit border text-white border-white"
+          >
+            <MdCall />
+            Contact Us
+          </button>
+          <button
+            onClick={() => navigate("/privacy")}
+            className="px-2 py-[3px] rounded text-[13px] cursor-pointer flex items-center justify-center gap-1 w-fit border text-white border-white"
+          >
+            <MdPrivacyTip />
+            Privacy Policy
+          </button>
+          <button
+            onClick={() => navigate("/tac")}
+            className="px-2 py-[3px] rounded text-[13px] cursor-pointer flex items-center justify-center gap-1 w-fit border text-white border-white"
+          >
+            <MdPrivacyTip />
+            Terms And Condition
+          </button>
+        </div>
+        <hr />
+        <h1 className="text-white text-xs text-center">
+          Copyright ©️ AllRummyApps.com All Rights Reserved
+        </h1>
       </div>
     </div>
   );
