@@ -356,6 +356,10 @@ function Games() {
         <h1 className="text-white text-xs text-center">
           Copyright ©️ AllRummyApps.com All Rights Reserved
         </h1>
+        <hr />
+        <h1 className="text-white text-xs text-center">
+          Made with love by <a href="https://www.instagram.com/insane.coder/" target="_blank">@insane.coder</a>
+        </h1>
       </div>
     </div>
   );
