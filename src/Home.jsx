@@ -547,42 +547,76 @@ function Home() {
     <div className=" overflow-y-scroll h-[90%]">
       <div className="banner w-full h-36 bg-blue-300"></div>
 
-      <div className="w-full h-fit bg-white flex items-center justify-between px-5">
+      {/* top 3 */}
+      <div className="w-full h-fit bg-white flex items-center justify-evenly">
         <div className="h-fit w-fit bg-zinc-600 flex flex-col items-center p-2 rounded-md relative">
-          <h1 className=" h-[20px] w-[20px] text-white bg-black rounded-full flex items-center justify-center absolute top-[-10px]">2</h1>
-          <div className="h-14 w-14 bg-red-400 rounded-md"></div>
-          <h1 className=" text-xs text-yellow-500 flex"><RiStarSFill /><RiStarSFill /><RiStarSFill /><RiStarSFill /><RiStarSFill /></h1>
-          <h1 className=" text-white text-[8px] flex items-center"><FaCheckCircle color="" />100% Safe & Secure</h1>
+          <h1 className=" h-[20px] w-[20px] text-white bg-black rounded-full flex items-center justify-center absolute top-[-10px]">
+            2
+          </h1>
+          <div className="h-16 w-16 bg-red-400 rounded-md"></div>
+          <h1 className=" text-sm text-yellow-500 flex">
+            <RiStarSFill />
+            <RiStarSFill />
+            <RiStarSFill />
+            <RiStarSFill />
+            <RiStarSFill />
+          </h1>
+          <h1 className=" text-white text-[9px] flex items-center">
+            <FaCheckCircle color="" />
+            100% Safe & Secure
+          </h1>
           <a
             target="_blank"
             href={bestForAllGames[1].downloadLink}
-            className="px-2 py-[2px] rounded download text-[10px] cursor-pointer"
+            className="px-2 py-[2px] rounded download text-[10px] cursor-pointer mt-2"
           >
             Download
           </a>
         </div>
         <div className="h-fit w-fit bg-zinc-600 flex flex-col items-center p-2 rounded-md relative">
-          <h1 className=" h-[22px] w-[22px] text-white bg-black rounded-full flex items-center justify-center absolute top-[-11px]">1</h1>
-          <div className="h-16 w-16 bg-red-400 rounded-md"></div>
-          <h1 className=" text-xs text-yellow-500 flex"><RiStarSFill /><RiStarSFill /><RiStarSFill /><RiStarSFill /><RiStarSFill /></h1>
-          <h1 className=" text-white text-[8px] flex items-center"><FaCheckCircle color="" />100% Safe & Secure</h1>
+          <h1 className=" h-[22px] w-[22px] text-white bg-black rounded-full flex items-center justify-center absolute top-[-11px]">
+            1
+          </h1>
+          <div className="h-[70px] w-[70px] bg-red-400 rounded-md"></div>
+          <h1 className=" text-sm text-yellow-500 flex">
+            <RiStarSFill />
+            <RiStarSFill />
+            <RiStarSFill />
+            <RiStarSFill />
+            <RiStarSFill />
+          </h1>
+          <h1 className=" text-white text-[10px] flex items-center">
+            <FaCheckCircle color="" />
+            100% Safe & Secure
+          </h1>
           <a
             target="_blank"
             href={bestForAllGames[0].downloadLink}
-            className="px-2 py-[2px] rounded download text-[13px] cursor-pointer"
+            className="px-2 py-[2px] rounded download text-[13px] cursor-pointer mt-2"
           >
             Download
           </a>
         </div>
         <div className="h-fit w-fit bg-zinc-600 flex flex-col items-center p-2 rounded-md relative">
-          <h1 className=" h-[20px] w-[20px] text-white bg-black rounded-full flex items-center justify-center absolute top-[-10px]">3</h1>
-          <div className="h-14 w-14 bg-red-400 rounded-md"></div>
-          <h1 className=" text-xs text-yellow-500 flex"><RiStarSFill /><RiStarSFill /><RiStarSFill /><RiStarSFill /><RiStarSFill /></h1>
-          <h1 className=" text-white text-[8px] flex items-center"><FaCheckCircle color="" />100% Safe & Secure</h1>
+          <h1 className=" h-[20px] w-[20px] text-white bg-black rounded-full flex items-center justify-center absolute top-[-10px]">
+            3
+          </h1>
+          <div className="h-16 w-16 bg-red-400 rounded-md"></div>
+          <h1 className=" text-sm text-yellow-500 flex">
+            <RiStarSFill />
+            <RiStarSFill />
+            <RiStarSFill />
+            <RiStarSFill />
+            <RiStarSFill />
+          </h1>
+          <h1 className=" text-white text-[9px] flex items-center">
+            <FaCheckCircle color="" />
+            100% Safe & Secure
+          </h1>
           <a
             target="_blank"
             href={bestForAllGames[2].downloadLink}
-            className="px-2 py-[2px] rounded download text-[10px] cursor-pointer"
+            className="px-2 py-[2px] rounded download text-[10px] cursor-pointer mt-2"
           >
             Download
           </a>
@@ -639,6 +673,7 @@ function Home() {
         </button>
       </div>
 
+      {/* list */}
       <div>
         {apps.map((app, index) => {
           return (
