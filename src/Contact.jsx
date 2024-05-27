@@ -9,10 +9,10 @@ function Contact() {
         corporations..
         <br />
         <br />
-        Email - xxxxxxxxxxxxxxxxxxxxxxxxx <br />
-        <br /> Telegram - Join Now <br />
+        <span className="font-bold">Email -</span> earningplatform003@gmail.com <br />
+        <br /> <span className="font-bold">Telegram -</span>  <a className="text-blue-700" href="https://t.me/AllTypeLoots" target="_blank">Join Now</a> <br />
         <br />
-        Business Enquiry - @xxxxxxxxxxxxxxx <br />
+        <span className="font-bold">Business Enquiry -</span>  <a className="text-blue-700" href="https://t.me/legendA00000" target="_blank">Click</a> <br />
         <br /> Note :- You can get your application advertised on our website by
         contacting us at the email address provided above if you own an
         application company and want to promote your app as well.
