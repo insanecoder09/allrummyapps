@@ -13,6 +13,7 @@ body{
 .download{
     background: #E02325;
     box-shadow: 0px 4px 20px 0px #E02325;
+    color: white;
 }
 
 .active{
@@ -26,4 +27,19 @@ button{
 
 a{
     font-weight: 700;
+}
+
+.marquee {
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.marquee-text {
+    display: inline-block;
+    animation: marquee 15s linear infinite;
+}
+
+@keyframes marquee {
+    from { transform: translateX(100%); }
+    to { transform: translateX(-100%); }
 }
