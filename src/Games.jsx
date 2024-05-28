@@ -2,13 +2,11 @@ import React from "react";
 import { BsInstagram } from "react-icons/bs";
 import {
   FaCheckCircle,
-  FaFacebook,
   FaTelegram,
   FaYoutube,
 } from "react-icons/fa";
 import { IoPerson, IoTrophySharp } from "react-icons/io5";
 import { MdCall, MdDownloadForOffline, MdPrivacyTip } from "react-icons/md";
-import { RiStarSFill } from "react-icons/ri";
 import { useNavigate } from "react-router-dom";
 
 function Games() {
@@ -29,7 +27,7 @@ function Games() {
       name: "Rummy Perfect",
       type: "Rummy",
       downloads: "200k+",
-      bonus: "₹41",
+      bonus: "₹44",
       minWithdrawal: "₹100/-",
       appLogo:
         "https://res.cloudinary.com/dhj9wvmmo/image/upload/v1716776157/Rummy-Logos/WhatsApp_Image_2024-05-26_at_5.54.36_AM_1_vpeqw4.jpg",
@@ -39,7 +37,7 @@ function Games() {
       name: "MBM Bet",
       type: "Rummy",
       downloads: "200k+",
-      bonus: "₹41",
+      bonus: "Upto ₹100",
       minWithdrawal: "₹100/-",
       appLogo:
         "https://res.cloudinary.com/dhj9wvmmo/image/upload/v1716776157/Rummy-Logos/WhatsApp_Image_2024-05-26_at_5.54.37_AM_f78xug.jpg",
@@ -49,7 +47,7 @@ function Games() {
       name: "567 Slots",
       type: "Rummy",
       downloads: "200k+",
-      bonus: "₹41",
+      bonus: "₹20-₹70",
       minWithdrawal: "₹100/-",
       appLogo:
         "https://res.cloudinary.com/dhj9wvmmo/image/upload/v1716776157/Rummy-Logos/WhatsApp_Image_2024-05-26_at_5.54.37_AM_1_tz4d3o.jpg",
@@ -60,7 +58,7 @@ function Games() {
       name: "Yono 777",
       type: "Rummy",
       downloads: "200k+",
-      bonus: "₹41",
+      bonus: "Upto ₹50",
       minWithdrawal: "₹100/-",
       appLogo:
         "https://res.cloudinary.com/dhj9wvmmo/image/upload/v1716776157/Rummy-Logos/WhatsApp_Image_2024-05-26_at_5.54.38_AM_q4ivz0.jpg",
@@ -70,7 +68,7 @@ function Games() {
       name: "Yono Rummy",
       type: "Rummy",
       downloads: "200k+",
-      bonus: "₹41",
+      bonus: "₹20-₹50",
       minWithdrawal: "₹100/-",
       appLogo:
         "https://res.cloudinary.com/dhj9wvmmo/image/upload/v1716776156/Rummy-Logos/WhatsApp_Image_2024-05-26_at_5.54.38_AM_1_kc45bm.jpg",
@@ -81,7 +79,7 @@ function Games() {
       name: "Yono Game",
       type: "Rummy",
       downloads: "200k+",
-      bonus: "₹41",
+      bonus: "₹30-₹100",
       minWithdrawal: "₹100/-",
       appLogo:
         "https://res.cloudinary.com/dhj9wvmmo/image/upload/v1716776156/Rummy-Logos/WhatsApp_Image_2024-05-26_at_5.54.38_AM_1_kc45bm.jpg",
@@ -91,7 +89,7 @@ function Games() {
       name: "Yono Arcade",
       type: "Rummy",
       downloads: "200k+",
-      bonus: "₹41",
+      bonus: "₹30-₹80",
       minWithdrawal: "₹100/-",
       appLogo:
         "https://res.cloudinary.com/dhj9wvmmo/image/upload/v1716776156/Rummy-Logos/WhatsApp_Image_2024-05-26_at_5.54.38_AM_2_dt1uky.jpg",
@@ -102,7 +100,7 @@ function Games() {
       name: "789 Jackpots",
       type: "Rummy",
       downloads: "200k+",
-      bonus: "₹41",
+      bonus: "₹20-₹80",
       minWithdrawal: "₹100/-",
       appLogo:
         "https://res.cloudinary.com/dhj9wvmmo/image/upload/v1716776156/Rummy-Logos/WhatsApp_Image_2024-05-26_at_5.54.39_AM_rmfcjz.jpg",
@@ -113,7 +111,7 @@ function Games() {
       name: "Bingo 101",
       type: "Rummy",
       downloads: "200k+",
-      bonus: "₹41",
+      bonus: "₹25-₹50",
       minWithdrawal: "₹100/-",
       appLogo:
         "https://res.cloudinary.com/dhj9wvmmo/image/upload/v1716776155/Rummy-Logos/WhatsApp_Image_2024-05-26_at_5.54.39_AM_1_dcr2tp.jpg",
@@ -124,7 +122,7 @@ function Games() {
       name: "ICIC Games",
       type: "Rummy",
       downloads: "200k+",
-      bonus: "₹41",
+      bonus: "₹20-₹100",
       minWithdrawal: "₹100/-",
       appLogo:
         "https://res.cloudinary.com/dhj9wvmmo/image/upload/v1716776155/Rummy-Logos/WhatsApp_Image_2024-05-26_at_5.54.39_AM_2_ibtbpl.jpg",
@@ -135,7 +133,7 @@ function Games() {
       name: "MDM Bet",
       type: "Rummy",
       downloads: "200k+",
-      bonus: "₹41",
+      bonus: "₹20-₹80",
       minWithdrawal: "₹100/-",
       appLogo:
         "https://res.cloudinary.com/dhj9wvmmo/image/upload/v1716776157/Rummy-Logos/WhatsApp_Image_2024-05-26_at_5.54.40_AM_q68p82.jpg",
@@ -145,7 +143,7 @@ function Games() {
       name: "MKM Bet",
       type: "Rummy",
       downloads: "200k+",
-      bonus: "₹41",
+      bonus: "₹30-₹100",
       minWithdrawal: "₹100/-",
       appLogo:
         "https://res.cloudinary.com/dhj9wvmmo/image/upload/v1716776156/Rummy-Logos/WhatsApp_Image_2024-05-26_at_5.54.40_AM_1_o7kies.jpg",
@@ -155,7 +153,7 @@ function Games() {
       name: "Spin Crush",
       type: "Rummy",
       downloads: "200k+",
-      bonus: "₹41",
+      bonus: "₹10-₹25",
       minWithdrawal: "₹100/-",
       appLogo:
         "https://res.cloudinary.com/dhj9wvmmo/image/upload/v1716776156/Rummy-Logos/WhatsApp_Image_2024-05-26_at_5.54.40_AM_1_o7kies.jpg",
@@ -166,7 +164,7 @@ function Games() {
       name: "Spin Lucky",
       type: "Rummy",
       downloads: "200k+",
-      bonus: "₹41",
+      bonus: " ₹8-₹25",
       minWithdrawal: "₹100/-",
       appLogo:
         "https://res.cloudinary.com/dhj9wvmmo/image/upload/v1716776156/Rummy-Logos/WhatsApp_Image_2024-05-26_at_5.54.41_AM_1_ywllsc.jpg",
@@ -176,7 +174,7 @@ function Games() {
       name: "Spin 777",
       type: "Rummy",
       downloads: "200k+",
-      bonus: "₹41",
+      bonus: "₹20-₹100",
       minWithdrawal: "₹100/-",
       appLogo:
         "https://res.cloudinary.com/dhj9wvmmo/image/upload/v1716776156/Rummy-Logos/WhatsApp_Image_2024-05-26_at_5.54.41_AM_2_glxyni.jpg",
@@ -186,7 +184,7 @@ function Games() {
       name: "Yes 3 Patti",
       type: "Rummy",
       downloads: "200k+",
-      bonus: "₹41",
+      bonus: "Upto ₹500",
       minWithdrawal: "₹100/-",
       appLogo:
         "https://res.cloudinary.com/dhj9wvmmo/image/upload/v1716776155/Rummy-Logos/WhatsApp_Image_2024-05-26_at_5.54.42_AM_geqpgz.jpg",
@@ -197,7 +195,7 @@ function Games() {
       name: "Rio 3 Patti",
       type: "Rummy",
       downloads: "200k+",
-      bonus: "₹41",
+      bonus: "Upto ₹500",
       minWithdrawal: "₹100/-",
       appLogo:
         "https://res.cloudinary.com/dhj9wvmmo/image/upload/v1716776155/Rummy-Logos/WhatsApp_Image_2024-05-26_at_5.54.42_AM_1_hxdq7q.jpg",
@@ -208,7 +206,7 @@ function Games() {
       name: "SVIP 3 Patti",
       type: "Rummy",
       downloads: "200k+",
-      bonus: "₹41",
+      bonus: "Upto ₹500",
       minWithdrawal: "₹100/-",
       appLogo:
         "https://res.cloudinary.com/dhj9wvmmo/image/upload/v1716776155/Rummy-Logos/WhatsApp_Image_2024-05-26_at_5.54.43_AM_mcdd4f.jpg",
@@ -241,21 +239,15 @@ function Games() {
 
       {/* top 3 */}
       <div className="w-full h-fit bg-white flex items-center justify-evenly">
-        <div className="h-fit w-fit bg-zinc-600 flex flex-col items-center p-2 rounded-md relative">
+        <div className="h-fit w-fit bg-zinc-200 flex flex-col items-center p-2 rounded-md relative">
           <h1 className=" h-[20px] w-[20px] text-white bg-black rounded-full flex items-center justify-center absolute top-[-10px]">
             2
           </h1>
           <div className="h-16 w-16 bg-red-400 rounded-md overflow-hidden">
             <img src={games[1].appLogo} alt="" />
           </div>
-          <h1 className=" text-sm text-yellow-500 flex">
-            <RiStarSFill />
-            <RiStarSFill />
-            <RiStarSFill />
-            <RiStarSFill />
-            <RiStarSFill />
-          </h1>
-          <h1 className=" text-white text-[9px] flex items-center">
+          <img className="w-[70px] my-1" src="https://res.cloudinary.com/dhj9wvmmo/image/upload/v1716878038/Rummy-Logos/rummybonusapp_star_rating_sij4ii.gif" alt="" />
+          <h1 className=" text-black text-[9px] flex items-center">
             <FaCheckCircle color="" />
             100% Safe & Secure
           </h1>
@@ -268,21 +260,15 @@ function Games() {
             Download
           </a>
         </div>
-        <div className="h-fit w-fit bg-zinc-600 flex flex-col items-center p-2 rounded-md relative mb-8">
+        <div className="h-fit w-fit bg-zinc-200 flex flex-col items-center p-2 rounded-md relative mb-8">
           <h1 className=" h-[22px] w-[22px] text-white bg-black rounded-full flex items-center justify-center absolute top-[-11px]">
             1
           </h1>
           <div className="h-[70px] w-[70px] bg-red-400 rounded-md overflow-hidden">
             <img src={games[0].appLogo} alt="" />
           </div>
-          <h1 className=" text-sm text-yellow-500 flex">
-            <RiStarSFill />
-            <RiStarSFill />
-            <RiStarSFill />
-            <RiStarSFill />
-            <RiStarSFill />
-          </h1>
-          <h1 className=" text-white text-[10px] flex items-center">
+           <img className="w-[80px] my-1" src="https://res.cloudinary.com/dhj9wvmmo/image/upload/v1716878038/Rummy-Logos/rummybonusapp_star_rating_sij4ii.gif" alt="" />
+          <h1 className=" text-black text-[10px] flex items-center">
             <FaCheckCircle color="" />
             100% Safe & Secure
           </h1>
@@ -295,21 +281,15 @@ function Games() {
             Download
           </a>
         </div>
-        <div className="h-fit w-fit bg-zinc-600 flex flex-col items-center p-2 rounded-md relative">
+        <div className="h-fit w-fit bg-zinc-200 flex flex-col items-center p-2 rounded-md relative">
           <h1 className=" h-[20px] w-[20px] text-white bg-black rounded-full flex items-center justify-center absolute top-[-10px]">
             3
           </h1>
           <div className="h-16 w-16 bg-red-400 rounded-md overflow-hidden">
             <img src={games[2].appLogo} alt="" />
           </div>
-          <h1 className=" text-sm text-yellow-500 flex">
-            <RiStarSFill />
-            <RiStarSFill />
-            <RiStarSFill />
-            <RiStarSFill />
-            <RiStarSFill />
-          </h1>
-          <h1 className=" text-white text-[9px] flex items-center">
+           <img className="w-[70px] my-1" src="https://res.cloudinary.com/dhj9wvmmo/image/upload/v1716878038/Rummy-Logos/rummybonusapp_star_rating_sij4ii.gif" alt="" />
+          <h1 className=" text-black text-[9px] flex items-center">
             <FaCheckCircle color="" />
             100% Safe & Secure
           </h1>
