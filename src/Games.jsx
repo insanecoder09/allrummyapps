@@ -1,10 +1,6 @@
 import React from "react";
 import { BsInstagram } from "react-icons/bs";
-import {
-  FaCheckCircle,
-  FaTelegram,
-  FaYoutube,
-} from "react-icons/fa";
+import { FaCheckCircle, FaTelegram, FaYoutube } from "react-icons/fa";
 import { IoPerson, IoTrophySharp } from "react-icons/io5";
 import { MdCall, MdDownloadForOffline, MdPrivacyTip } from "react-icons/md";
 import { useNavigate } from "react-router-dom";
@@ -228,7 +224,6 @@ function Games() {
 
   return (
     <div className=" overflow-y-scroll h-[90%]">
-      
       <div className="banner w-full h-fit bg-blue-300">
         <img
           src="https://res.cloudinary.com/dhj9wvmmo/image/upload/v1716779232/Rummy-Logos/Screenshot_2024-05-27_083445_tvxujt.png"
@@ -246,7 +241,11 @@ function Games() {
           <div className="h-16 w-16 bg-red-400 rounded-md overflow-hidden">
             <img src={games[1].appLogo} alt="" />
           </div>
-          <img className="w-[70px] my-1" src="https://res.cloudinary.com/dhj9wvmmo/image/upload/v1716878038/Rummy-Logos/rummybonusapp_star_rating_sij4ii.gif" alt="" />
+          <img
+            className="w-[70px] my-1"
+            src="https://res.cloudinary.com/dhj9wvmmo/image/upload/v1716878038/Rummy-Logos/rummybonusapp_star_rating_sij4ii.gif"
+            alt=""
+          />
           <h1 className=" text-black text-[9px] flex items-center">
             <FaCheckCircle color="" />
             100% Safe & Secure
@@ -267,7 +266,11 @@ function Games() {
           <div className="h-[70px] w-[70px] bg-red-400 rounded-md overflow-hidden">
             <img src={games[0].appLogo} alt="" />
           </div>
-           <img className="w-[80px] my-1" src="https://res.cloudinary.com/dhj9wvmmo/image/upload/v1716878038/Rummy-Logos/rummybonusapp_star_rating_sij4ii.gif" alt="" />
+          <img
+            className="w-[80px] my-1"
+            src="https://res.cloudinary.com/dhj9wvmmo/image/upload/v1716878038/Rummy-Logos/rummybonusapp_star_rating_sij4ii.gif"
+            alt=""
+          />
           <h1 className=" text-black text-[10px] flex items-center">
             <FaCheckCircle color="" />
             100% Safe & Secure
@@ -288,7 +291,11 @@ function Games() {
           <div className="h-16 w-16 bg-red-400 rounded-md overflow-hidden">
             <img src={games[2].appLogo} alt="" />
           </div>
-           <img className="w-[70px] my-1" src="https://res.cloudinary.com/dhj9wvmmo/image/upload/v1716878038/Rummy-Logos/rummybonusapp_star_rating_sij4ii.gif" alt="" />
+          <img
+            className="w-[70px] my-1"
+            src="https://res.cloudinary.com/dhj9wvmmo/image/upload/v1716878038/Rummy-Logos/rummybonusapp_star_rating_sij4ii.gif"
+            alt=""
+          />
           <h1 className=" text-black text-[9px] flex items-center">
             <FaCheckCircle color="" />
             100% Safe & Secure
@@ -353,10 +360,22 @@ function Games() {
         })}
       </div>
 
-      <div class="bg-yellow-400 border-y-2 my-3 border-dashed border-red-500 p-2 marquee">
-        <div class="font-bold text-gray-800 marquee-text">
-          ALL RUMMY APP 2024, ALL RUMMY GAME 2024,
-        </div>
+      <div className="bg-yellow-400 border-y-2 my-3 border-dashed border-red-500 px-2 marquee">
+        <marquee behavior="" direction="">
+          <h1 className="font-bold text-sm">
+            <span className="text-blue-700">Queries :-</span> all rummy app, all
+            rummy app 2023, all rummy app 2024, all rummy game 2024, all rummy
+            game 500 bonus, all rummy games 2024, all rummy games 500 bonus, all
+            rummy games online, aol rummy, best rummy app, bonus game, go rummy,
+            new rummy app 500 bonus, new rummy apps 2023, royally rummy, rummy,
+            rummy all apk 500 bonus, rummy all app 2023, rummy all app 2024,
+            rummy all app new 2024, rummy all games 2023, rummy all games 2024,
+            rummy application, rummy download, rummy free download, rummy game,
+            rummy glee, rummy gold, rummy modern, rummy new app 2024 download,
+            rummy new app 51 bonus 2024, rummy wealth, teen patti gold 51 bonus,
+            window gold
+          </h1>
+        </marquee>
       </div>
 
       {/* footer */}
