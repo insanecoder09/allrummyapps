@@ -481,7 +481,11 @@ function Home() {
           <div className="h-16 w-16 bg-red-400 rounded-md overflow-hidden">
             <img src={bestForAllGames[1].appLogo} alt="" />
           </div>
-          <img className="w-[70px] my-1" src="https://res.cloudinary.com/dhj9wvmmo/image/upload/v1716878038/Rummy-Logos/rummybonusapp_star_rating_sij4ii.gif" alt="" />
+          <img
+            className="w-[70px] my-1"
+            src="https://res.cloudinary.com/dhj9wvmmo/image/upload/v1716878038/Rummy-Logos/rummybonusapp_star_rating_sij4ii.gif"
+            alt=""
+          />
           <h1 className=" text-black text-[9px] flex items-center">
             <FaCheckCircle color="" />
             100% Safe & Secure
@@ -502,7 +506,11 @@ function Home() {
           <div className="h-[70px] w-[70px] bg-red-400 rounded-md overflow-hidden">
             <img src={bestForAllGames[0].appLogo} alt="" />
           </div>
-           <img className="w-[80px] my-1" src="https://res.cloudinary.com/dhj9wvmmo/image/upload/v1716878038/Rummy-Logos/rummybonusapp_star_rating_sij4ii.gif" alt="" />
+          <img
+            className="w-[80px] my-1"
+            src="https://res.cloudinary.com/dhj9wvmmo/image/upload/v1716878038/Rummy-Logos/rummybonusapp_star_rating_sij4ii.gif"
+            alt=""
+          />
           <h1 className=" text-black text-[10px] flex items-center">
             <FaCheckCircle color="" />
             100% Safe & Secure
@@ -523,7 +531,11 @@ function Home() {
           <div className="h-16 w-16 bg-red-400 rounded-md overflow-hidden">
             <img src={bestForAllGames[2].appLogo} alt="" />
           </div>
-           <img className="w-[70px] my-1" src="https://res.cloudinary.com/dhj9wvmmo/image/upload/v1716878038/Rummy-Logos/rummybonusapp_star_rating_sij4ii.gif" alt="" />
+          <img
+            className="w-[70px] my-1"
+            src="https://res.cloudinary.com/dhj9wvmmo/image/upload/v1716878038/Rummy-Logos/rummybonusapp_star_rating_sij4ii.gif"
+            alt=""
+          />
           <h1 className=" text-black text-[9px] flex items-center">
             <FaCheckCircle color="" />
             100% Safe & Secure
@@ -633,16 +645,34 @@ function Home() {
         })}
       </div>
 
+      <div class="bg-yellow-400 border-y-2 my-3 border-dashed border-red-500 p-2 marquee">
+        <div class="font-bold text-gray-800 marquee-text">
+          ALL RUMMY APP 2024, ALL RUMMY GAME 2024,
+        </div>
+      </div>
+
       {/* footer */}
       <div className="bg-blue-600 w-full p-3 flex justify-center flex-col gap-3">
         <div className="flex flex-wrap justify-center gap-2">
-          <a href="https://www.instagram.com/earningplatform01?igsh=b25hanl0NGVma3du" target="_blank" className="p-2  rounded text-[13px] cursor-pointer flex items-center justify-center gap-1 w-fit text-white bg-pink-600">
-          <BsInstagram />
+          <a
+            href="https://www.instagram.com/earningplatform01?igsh=b25hanl0NGVma3du"
+            target="_blank"
+            className="p-2  rounded text-[13px] cursor-pointer flex items-center justify-center gap-1 w-fit text-white bg-pink-600"
+          >
+            <BsInstagram />
           </a>
-          <a href="https://t.me/AllTypeLoots" target="_blank" className="px-2 py-[3px] rounded text-[13px] cursor-pointer flex items-center justify-center gap-1 w-fit bg-[#319edd] text-white">
+          <a
+            href="https://t.me/AllTypeLoots"
+            target="_blank"
+            className="px-2 py-[3px] rounded text-[13px] cursor-pointer flex items-center justify-center gap-1 w-fit bg-[#319edd] text-white"
+          >
             <FaTelegram /> Join
           </a>
-          <a href="https://youtube.com/@alltypeloot?si=lOVPslnxQwjoasPN" target="_blank" className="px-2 py-[3px] rounded text-[13px] cursor-pointer flex items-center justify-center gap-1 w-fit bg-[#ec3636] text-white">
+          <a
+            href="https://youtube.com/@alltypeloot?si=lOVPslnxQwjoasPN"
+            target="_blank"
+            className="px-2 py-[3px] rounded text-[13px] cursor-pointer flex items-center justify-center gap-1 w-fit bg-[#ec3636] text-white"
+          >
             <FaYoutube />
           </a>
         </div>

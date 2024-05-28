@@ -353,6 +353,12 @@ function Games() {
         })}
       </div>
 
+      <div class="bg-yellow-400 border-y-2 my-3 border-dashed border-red-500 p-2 marquee">
+        <div class="font-bold text-gray-800 marquee-text">
+          ALL RUMMY APP 2024, ALL RUMMY GAME 2024,
+        </div>
+      </div>
+
       {/* footer */}
       <div className="bg-blue-600 w-full p-3 flex justify-center flex-col gap-3">
         <div className="flex flex-wrap justify-center gap-2">
