@@ -159,7 +159,7 @@ function Home() {
       bonus: "₹10-₹25",
       minWithdrawal: "₹100/-",
       appLogo:
-        "https://res.cloudinary.com/dhj9wvmmo/image/upload/v1716776156/Rummy-Logos/WhatsApp_Image_2024-05-26_at_5.54.40_AM_1_o7kies.jpg",
+        "https://res.cloudinary.com/dhj9wvmmo/image/upload/v1716776156/Rummy-Logos/WhatsApp_Image_2024-05-26_at_5.54.41_AM_bzdri4.jpg",
       downloadLink:
         "https://www.spincrushagent.com/?code=ADE41ZABJNB&t=1716301935",
     },
@@ -377,7 +377,7 @@ function Home() {
       bonus: "₹10-₹25",
       minWithdrawal: "₹100/-",
       appLogo:
-        "https://res.cloudinary.com/dhj9wvmmo/image/upload/v1716776156/Rummy-Logos/WhatsApp_Image_2024-05-26_at_5.54.40_AM_1_o7kies.jpg",
+        "https://res.cloudinary.com/dhj9wvmmo/image/upload/v1716776156/Rummy-Logos/WhatsApp_Image_2024-05-26_at_5.54.41_AM_bzdri4.jpg",
       downloadLink:
         "https://www.spincrushagent.com/?code=ADE41ZABJNB&t=1716301935",
     },
@@ -474,10 +474,12 @@ function Home() {
 
       {/* top 3 */}
       <div className="w-full h-fit bg-white flex items-center justify-evenly">
-        <div className="h-fit w-fit bg-zinc-200 flex flex-col items-center p-2 rounded-md relative">
-          <h1 className=" h-[20px] w-[20px] text-white bg-black rounded-full flex items-center justify-center absolute top-[-10px]">
-            2
-          </h1>
+        <div className="h-fit w-fit bg-zinc-200 flex flex-col items-center p-3 rounded-md relative pt-5">
+        <img
+            className=" h-12 absolute top-[-20px]"
+            src="https://rummybonusapp.com/kr/assets/20230731_153804.webp"
+            alt=""
+          />
           <div className="h-16 w-16 bg-red-400 rounded-md overflow-hidden">
             <img src={bestForAllGames[1].appLogo} alt="" />
           </div>
@@ -499,10 +501,12 @@ function Home() {
             Download
           </a>
         </div>
-        <div className="h-fit w-fit bg-zinc-200 flex flex-col items-center p-2 rounded-md relative mb-8">
-          <h1 className=" h-[22px] w-[22px] text-white bg-black rounded-full flex items-center justify-center absolute top-[-11px]">
-            1
-          </h1>
+        <div className="h-fit w-fit bg-zinc-200 flex flex-col items-center p-3 rounded-md relative mb-8 pt-5">
+          <img
+            className=" h-12 absolute top-[-20px]"
+            src="https://rummybonusapp.com/kr/assets/20230731_153953.webp"
+            alt=""
+          />
           <div className="h-[70px] w-[70px] bg-red-400 rounded-md overflow-hidden">
             <img src={bestForAllGames[0].appLogo} alt="" />
           </div>
@@ -524,10 +528,12 @@ function Home() {
             Download
           </a>
         </div>
-        <div className="h-fit w-fit bg-zinc-200 flex flex-col items-center p-2 rounded-md relative">
-          <h1 className=" h-[20px] w-[20px] text-white bg-black rounded-full flex items-center justify-center absolute top-[-10px]">
-            3
-          </h1>
+        <div className="h-fit w-fit bg-zinc-200 flex flex-col items-center p-3 rounded-md relative pt-5">
+        <img
+            className=" h-12 absolute top-[-20px]"
+            src="https://rummybonusapp.com/kr/assets/20230731_154129.webp"
+            alt=""
+          />
           <div className="h-16 w-16 bg-red-400 rounded-md overflow-hidden">
             <img src={bestForAllGames[2].appLogo} alt="" />
           </div>
@@ -616,16 +622,14 @@ function Home() {
                 <div className="h-12 w-12 bg-red-400 rounded-md overflow-hidden">
                   {app.appLogo ? (
                     <img src={app.appLogo} className="w-full" alt="app logo" />
-                  ) : (
-                    <h1>Hello</h1>
-                  )}
+                  ) : null}
                 </div>
                 <div className="">
-                  <h1 className="text-[14px] ">{app.name}</h1>
+                  <h1 className="text-[14px] font-bold">{app.name}</h1>
                   <div className="flex items-center gap-1 text-[10px] ">
-                    <h1 className="text-yellow-400">D: {app.downloads}</h1>
+                    <h1 className="text-blue-600">D: {app.downloads}</h1>
                     <div className="h-3 w-[1px] bg-zinc-500"></div>
-                    <h1>Bonus {app.bonus}</h1>
+                    <h1 className=" font-bold">Bonus {app.bonus}</h1>
                   </div>
                   <h1 className=" text-green-700 text-[12px] font-bold">
                     Min Withrawal {app.minWithdrawal}
@@ -722,6 +726,13 @@ function Home() {
         <hr />
         <h1 className="text-white text-xs text-center">
           Copyright ©️ Rummybestapps.com All Rights Reserved
+        </h1>
+        <hr />
+        <h1 className="text-white text-xs text-center">
+          Made with love by{" "}
+          <a href="https://www.instagram.com/insane.coder/" target="_blank">
+            @insane.coder
+          </a>
         </h1>
       </div>
     </div>
