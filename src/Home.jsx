@@ -466,7 +466,7 @@ function Home() {
     <div className=" overflow-y-scroll h-[90%]">
       <div className="banner w-full h-fit bg-blue-300">
         <img
-          src="https://res.cloudinary.com/dhj9wvmmo/image/upload/v1716779232/Rummy-Logos/Screenshot_2024-05-27_083445_tvxujt.png"
+          src="https://res.cloudinary.com/dhj9wvmmo/image/upload/v1717001013/Rummy-Logos/WhatsApp_Image_2024-05-29_at_7.59.56_PM_qrefkg.jpg"
           className="w-full"
           alt="banner"
         />
