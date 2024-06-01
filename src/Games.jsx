@@ -257,7 +257,7 @@ function Games() {
             href={games[1].downloadLink}
             className="px-2 py-[3px] rounded download text-[10px] cursor-pointer mt-2 flex items-center justify-center gap-1"
           >
-            <MdDownloadForOffline />
+          <div className=" animate-bounce"><MdDownloadForOffline /></div>
             Download
           </a>
         </div>
@@ -284,7 +284,7 @@ function Games() {
             href={games[0].downloadLink}
             className="px-2 py-[3px] rounded download text-[13px] cursor-pointer mt-2 flex items-center justify-center gap-1"
           >
-            <MdDownloadForOffline />
+          <div className=" animate-bounce"><MdDownloadForOffline /></div>
             Download
           </a>
         </div>
@@ -311,7 +311,7 @@ function Games() {
             href={games[2].downloadLink}
             className="px-2 py-[3px] rounded download text-[10px] cursor-pointer mt-2  flex items-center justify-center gap-1"
           >
-            <MdDownloadForOffline />
+          <div className=" animate-bounce"><MdDownloadForOffline /></div>
             Download
           </a>
         </div>
@@ -358,7 +358,7 @@ function Games() {
                 href={app.downloadLink}
                 className="px-2 py-[3px] rounded download text-[13px] cursor-pointer  flex items-center justify-center gap-1"
               >
-                <MdDownloadForOffline />
+              <div className=" animate-bounce"><MdDownloadForOffline /></div>
                 Download
               </a>
             </div>
