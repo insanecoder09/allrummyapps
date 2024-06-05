@@ -31,7 +31,7 @@ function App() {
           <div className="text-md font-bold h-full flex items-center gap-2">
             <img
               className=" h-[80%] rounded-md"
-              src="https://res.cloudinary.com/dhj9wvmmo/image/upload/v1716776157/Rummy-Logos/WhatsApp_Image_2024-05-26_at_5.54.36_AM_lmvele.jpg"
+              src="https://res.cloudinary.com/dhj9wvmmo/image/upload/v1717579685/Rummy-Logos/Screenshot_20240605-145606_Drive_dkerhq.jpg"
               alt="logo"
             />
             <h1>RummyBestApps</h1>
