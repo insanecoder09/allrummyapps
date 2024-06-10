@@ -24,7 +24,7 @@ function Home() {
       appLogo:
         "https://res.cloudinary.com/dhj9wvmmo/image/upload/v1716776157/Rummy-Logos/WhatsApp_Image_2024-05-26_at_5.54.36_AM_lmvele.jpg",
       downloadLink:
-        "https://rummy888999.com//?from_gameid=14144156&channelCode=2799582",
+        "https://rummy888999.com/?from_gameid=16969896&channelCode=100000",
     },
     {
       name: "Rummy Perfect",
@@ -293,7 +293,7 @@ function Home() {
       appLogo:
         "https://res.cloudinary.com/dhj9wvmmo/image/upload/v1716776157/Rummy-Logos/WhatsApp_Image_2024-05-26_at_5.54.36_AM_lmvele.jpg",
       downloadLink:
-        "https://rummy888999.com//?from_gameid=14144156&channelCode=2799582",
+        "https://rummy888999.com/?from_gameid=16969896&channelCode=100000",
     },
     {
       name: "Rummy Perfect",
