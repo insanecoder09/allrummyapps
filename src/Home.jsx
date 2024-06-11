@@ -34,7 +34,7 @@ function Home() {
       minWithdrawal: "₹100/-",
       appLogo:
         "https://res.cloudinary.com/dhj9wvmmo/image/upload/v1716776157/Rummy-Logos/WhatsApp_Image_2024-05-26_at_5.54.36_AM_1_vpeqw4.jpg",
-      downloadLink: "https://rummy58.com/?code=11773877",
+      downloadLink: "https://rummy58.com/?code=16087186",
     },
     {
       name: "MBM Bet",
@@ -303,7 +303,7 @@ function Home() {
       minWithdrawal: "₹100/-",
       appLogo:
         "https://res.cloudinary.com/dhj9wvmmo/image/upload/v1716776157/Rummy-Logos/WhatsApp_Image_2024-05-26_at_5.54.36_AM_1_vpeqw4.jpg",
-      downloadLink: "https://rummy58.com/?code=11773877",
+      downloadLink: "https://rummy58.com/?code=16087186",
     },
     {
       name: "MBM Bet",
