@@ -514,12 +514,12 @@ function Home() {
   const [searched, setSearched] = useState("");
   const [apps, setApps] = useState(games[selected]);
 
-  useEffect(() => {
-    gsap.from(".apps", {
-      opacity: 0,
-      duration: 1,
-    });
-  }, [apps]);
+  // useEffect(() => {
+  //   gsap.from(".apps", {
+  //     opacity: 0,
+  //     duration: 1,
+  //   });
+  // }, [apps]);
 
   useEffect(() => {
     setApps(() => {
