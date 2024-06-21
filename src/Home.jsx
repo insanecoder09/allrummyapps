@@ -1,5 +1,8 @@
+import { useGSAP } from "@gsap/react";
+import gsap from "gsap";
 import React, { useEffect, useState } from "react";
 import { BsGraphUpArrow, BsInstagram } from "react-icons/bs";
+import { motion } from "framer-motion";
 import {
   FaCheckCircle,
   FaFacebook,
@@ -14,6 +17,7 @@ import { useNavigate } from "react-router-dom";
 
 function Home() {
   const navigate = useNavigate();
+
   const bestForAllGames = [
     {
       name: "Rummy East",
@@ -24,7 +28,7 @@ function Home() {
       appLogo:
         "https://res.cloudinary.com/dhj9wvmmo/image/upload/v1716776157/Rummy-Logos/WhatsApp_Image_2024-05-26_at_5.54.36_AM_lmvele.jpg",
       downloadLink:
-        "https://rummy888999.com/?from_gameid=16969896&channelCode=100000",
+        "https://rummy888999.com//?from_gameid=14144156&channelCode=2799582",
     },
     {
       name: "Rummy Perfect",
@@ -34,7 +38,7 @@ function Home() {
       minWithdrawal: "₹100/-",
       appLogo:
         "https://res.cloudinary.com/dhj9wvmmo/image/upload/v1716776157/Rummy-Logos/WhatsApp_Image_2024-05-26_at_5.54.36_AM_1_vpeqw4.jpg",
-      downloadLink: "https://rummy58.com/?code=16087186",
+      downloadLink: "https://rummy58.com/?code=11773877",
     },
     {
       name: "MBM Bet",
@@ -227,8 +231,37 @@ function Home() {
       downloadLink:
         "https://rummygolds.com/?from_gameid=1242136&channelCode=1241993",
     },
+    {
+      name: "Bet 213",
+      type: "Rummy",
+      downloads: "200k+",
+      bonus: "₹20-₹80",
+      minWithdrawal: "₹100/-",
+      appLogo:
+        "https://res.cloudinary.com/dhj9wvmmo/image/upload/v1718973476/Rummy-Logos/WhatsApp_Image_2024-06-21_at_6.05.26_PM_fddro8.jpg",
+      downloadLink: "https://www.bet213app.com/?code=2QTDU4YL4GS&t=1717561586",
+    },
+    {
+      name: "Wingo Bonus",
+      type: "Rummy",
+      downloads: "200k+",
+      bonus: "₹50-₹500",
+      minWithdrawal: "₹100/-",
+      appLogo: "",
+      downloadLink:
+        "https://wingobonus.com/#/pages/bonus/bn?invite_code=94375128",
+    },
+    {
+      name: "IND Bingo",
+      type: "Rummy",
+      downloads: "200k+",
+      bonus: "₹25-₹75",
+      minWithdrawal: "₹100/-",
+      appLogo:
+        "https://res.cloudinary.com/dhj9wvmmo/image/upload/v1718973476/Rummy-Logos/WhatsApp_Image_2024-06-21_at_6.05.25_PM_sv73nx.jpg",
+      downloadLink: "https://www.indbingo1.com/?code=R9AVHCV4WDZ&t=1718694200",
+    },
   ];
-
   const newApps = [
     {
       name: "Yono Rummy",
@@ -293,7 +326,7 @@ function Home() {
       appLogo:
         "https://res.cloudinary.com/dhj9wvmmo/image/upload/v1716776157/Rummy-Logos/WhatsApp_Image_2024-05-26_at_5.54.36_AM_lmvele.jpg",
       downloadLink:
-        "https://rummy888999.com/?from_gameid=16969896&channelCode=100000",
+        "https://rummy888999.com//?from_gameid=14144156&channelCode=2799582",
     },
     {
       name: "Rummy Perfect",
@@ -303,7 +336,7 @@ function Home() {
       minWithdrawal: "₹100/-",
       appLogo:
         "https://res.cloudinary.com/dhj9wvmmo/image/upload/v1716776157/Rummy-Logos/WhatsApp_Image_2024-05-26_at_5.54.36_AM_1_vpeqw4.jpg",
-      downloadLink: "https://rummy58.com/?code=16087186",
+      downloadLink: "https://rummy58.com/?code=11773877",
     },
     {
       name: "MBM Bet",
@@ -336,8 +369,37 @@ function Home() {
         "https://res.cloudinary.com/dhj9wvmmo/image/upload/v1716776157/Rummy-Logos/WhatsApp_Image_2024-05-26_at_5.54.38_AM_q4ivz0.jpg",
       downloadLink: "https://yono777agent.com/?code=F9M6JKBYK2L&t=1716301113",
     },
+    {
+      name: "Bet 213",
+      type: "Rummy",
+      downloads: "200k+",
+      bonus: "₹20-₹80",
+      minWithdrawal: "₹100/-",
+      appLogo:
+        "https://res.cloudinary.com/dhj9wvmmo/image/upload/v1718973476/Rummy-Logos/WhatsApp_Image_2024-06-21_at_6.05.26_PM_fddro8.jpg",
+      downloadLink: "https://www.bet213app.com/?code=2QTDU4YL4GS&t=1717561586",
+    },
+    {
+      name: "Wingo Bonus",
+      type: "Rummy",
+      downloads: "200k+",
+      bonus: "₹50-₹500",
+      minWithdrawal: "₹100/-",
+      appLogo: "",
+      downloadLink:
+        "https://wingobonus.com/#/pages/bonus/bn?invite_code=94375128",
+    },
+    {
+      name: "IND Bingo",
+      type: "Rummy",
+      downloads: "200k+",
+      bonus: "₹25-₹75",
+      minWithdrawal: "₹100/-",
+      appLogo:
+        "https://res.cloudinary.com/dhj9wvmmo/image/upload/v1718973476/Rummy-Logos/WhatsApp_Image_2024-06-21_at_6.05.25_PM_sv73nx.jpg",
+      downloadLink: "https://www.indbingo1.com/?code=R9AVHCV4WDZ&t=1718694200",
+    },
   ];
-
   const teenPatti = [
     {
       name: "ICIC Games",
@@ -448,10 +510,16 @@ function Home() {
   ];
 
   const games = [bestForAllGames, newApps, teenPatti];
-
   const [selected, setSelected] = useState(0);
   const [searched, setSearched] = useState("");
   const [apps, setApps] = useState(games[selected]);
+
+  useEffect(() => {
+    gsap.from(".apps", {
+      opacity: 0,
+      duration: 1,
+    });
+  }, [apps]);
 
   useEffect(() => {
     setApps(() => {
@@ -475,7 +543,7 @@ function Home() {
       {/* top 3 */}
       <div className="w-full h-fit bg-white flex items-center justify-evenly">
         <div className="h-fit w-fit bg-zinc-200 flex flex-col items-center p-3 rounded-md relative pt-5">
-        <img
+          <img
             className=" h-12 absolute top-[-20px]"
             src="https://rummybonusapp.com/kr/assets/20230731_153804.webp"
             alt=""
@@ -497,7 +565,9 @@ function Home() {
             href={bestForAllGames[1].downloadLink}
             className="px-2 py-[3px] rounded download text-[10px] cursor-pointer mt-2 flex items-center justify-center gap-1"
           >
-          <div className=" animate-bounce"><MdDownloadForOffline /></div>
+            <div className=" animate-bounce">
+              <MdDownloadForOffline />
+            </div>
             Download
           </a>
         </div>
@@ -524,12 +594,14 @@ function Home() {
             href={bestForAllGames[0].downloadLink}
             className="px-2 py-[3px] rounded download text-[13px] cursor-pointer mt-2 flex items-center justify-center gap-1"
           >
-          <div className=" animate-bounce"><MdDownloadForOffline /></div>
+            <div className=" animate-bounce">
+              <MdDownloadForOffline />
+            </div>
             Download
           </a>
         </div>
         <div className="h-fit w-fit bg-zinc-200 flex flex-col items-center p-3 rounded-md relative pt-5">
-        <img
+          <img
             className=" h-12 absolute top-[-20px]"
             src="https://rummybonusapp.com/kr/assets/20230731_154129.webp"
             alt=""
@@ -551,7 +623,9 @@ function Home() {
             href={bestForAllGames[2].downloadLink}
             className="px-2 py-[3px] rounded download text-[10px] cursor-pointer mt-2 flex items-center justify-center gap-1"
           >
-          <div className=" animate-bounce"><MdDownloadForOffline /></div>
+            <div className=" animate-bounce">
+              <MdDownloadForOffline />
+            </div>
             Download
           </a>
         </div>
@@ -611,11 +685,11 @@ function Home() {
       </div>
 
       {/* list */}
-      <div>
+      <div className="">
         {apps.map((app, index) => {
           return (
             <div
-              className="w-full h-20 border-b border-black my-2 flex justify-between items-center px-4"
+              className="w-full h-20 border-b border-black my-2 flex justify-between items-center px-4 apps opacity-100"
               key={index}
             >
               <div className="flex gap-3 items-center">
@@ -641,7 +715,9 @@ function Home() {
                 href={app.downloadLink}
                 className="px-2 py-[3px] rounded download text-[13px] cursor-pointer flex items-center justify-center gap-1"
               >
-                <div className=" animate-bounce"><MdDownloadForOffline /></div>
+                <div className=" animate-bounce">
+                  <MdDownloadForOffline />
+                </div>
                 Download
               </a>
             </div>
