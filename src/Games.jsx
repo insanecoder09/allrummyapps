@@ -17,7 +17,7 @@ function Games() {
       appLogo:
         "https://res.cloudinary.com/dhj9wvmmo/image/upload/v1716776157/Rummy-Logos/WhatsApp_Image_2024-05-26_at_5.54.36_AM_lmvele.jpg",
       downloadLink:
-        "https://rummy888999.com/?from_gameid=16969896&channelCode=100000",
+        "https://rummy888999.com//?from_gameid=14144156&channelCode=2799582",
     },
     {
       name: "Rummy Perfect",
@@ -27,7 +27,7 @@ function Games() {
       minWithdrawal: "₹100/-",
       appLogo:
         "https://res.cloudinary.com/dhj9wvmmo/image/upload/v1716776157/Rummy-Logos/WhatsApp_Image_2024-05-26_at_5.54.36_AM_1_vpeqw4.jpg",
-      downloadLink: "https://rummy58.com/?code=16087186",
+      downloadLink: "https://rummy58.com/?code=11773877",
     },
     {
       name: "MBM Bet",
@@ -219,6 +219,36 @@ function Games() {
         "https://res.cloudinary.com/dhj9wvmmo/image/upload/v1716776155/Rummy-Logos/WhatsApp_Image_2024-05-26_at_5.54.43_AM_1_uy5dwp.jpg",
       downloadLink:
         "https://rummygolds.com/?from_gameid=1242136&channelCode=1241993",
+    },
+    {
+      name: "Bet 213",
+      type: "Rummy",
+      downloads: "200k+",
+      bonus: "₹20-₹80",
+      minWithdrawal: "₹100/-",
+      appLogo:
+        "https://res.cloudinary.com/dhj9wvmmo/image/upload/v1718973476/Rummy-Logos/WhatsApp_Image_2024-06-21_at_6.05.26_PM_fddro8.jpg",
+      downloadLink: "https://www.bet213app.com/?code=2QTDU4YL4GS&t=1717561586",
+    },
+    {
+      name: "Wingo Bonus",
+      type: "Rummy",
+      downloads: "200k+",
+      bonus: "₹50-₹500",
+      minWithdrawal: "₹100/-",
+      appLogo: "",
+      downloadLink:
+        "https://wingobonus.com/#/pages/bonus/bn?invite_code=94375128",
+    },
+    {
+      name: "IND Bingo",
+      type: "Rummy",
+      downloads: "200k+",
+      bonus: "₹25-₹75",
+      minWithdrawal: "₹100/-",
+      appLogo:
+        "https://res.cloudinary.com/dhj9wvmmo/image/upload/v1718973476/Rummy-Logos/WhatsApp_Image_2024-06-21_at_6.05.25_PM_sv73nx.jpg",
+      downloadLink: "https://www.indbingo1.com/?code=R9AVHCV4WDZ&t=1718694200",
     },
   ];
 
