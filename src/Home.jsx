@@ -242,12 +242,12 @@ function Home() {
       downloadLink: "https://www.bet213app.com/?code=2QTDU4YL4GS&t=1717561586",
     },
     {
-      name: "Wingo Bonus",
+      name: "LCG Bet",
       type: "Rummy",
       downloads: "200k+",
       bonus: "₹50-₹500",
       minWithdrawal: "₹100/-",
-      appLogo: "",
+      appLogo: "https://res.cloudinary.com/dhj9wvmmo/image/upload/v1719039475/Rummy-Logos/uirchz3sgsv7ddjo58wy.jpg",
       downloadLink:
         "https://wingobonus.com/#/pages/bonus/bn?invite_code=94375128",
     },
@@ -380,12 +380,12 @@ function Home() {
       downloadLink: "https://www.bet213app.com/?code=2QTDU4YL4GS&t=1717561586",
     },
     {
-      name: "Wingo Bonus",
+      name: "LCG Bet",
       type: "Rummy",
       downloads: "200k+",
       bonus: "₹50-₹500",
       minWithdrawal: "₹100/-",
-      appLogo: "",
+      appLogo: "https://res.cloudinary.com/dhj9wvmmo/image/upload/v1719039475/Rummy-Logos/uirchz3sgsv7ddjo58wy.jpg",
       downloadLink:
         "https://wingobonus.com/#/pages/bonus/bn?invite_code=94375128",
     },
