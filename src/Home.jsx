@@ -247,7 +247,8 @@ function Home() {
       downloads: "200k+",
       bonus: "₹50-₹500",
       minWithdrawal: "₹100/-",
-      appLogo: "https://res.cloudinary.com/dhj9wvmmo/image/upload/v1719039475/Rummy-Logos/uirchz3sgsv7ddjo58wy.jpg",
+      appLogo:
+        "https://res.cloudinary.com/dhj9wvmmo/image/upload/v1719039475/Rummy-Logos/uirchz3sgsv7ddjo58wy.jpg",
       downloadLink:
         "https://wingobonus.com/#/pages/bonus/bn?invite_code=94375128",
     },
@@ -385,7 +386,8 @@ function Home() {
       downloads: "200k+",
       bonus: "₹50-₹500",
       minWithdrawal: "₹100/-",
-      appLogo: "https://res.cloudinary.com/dhj9wvmmo/image/upload/v1719039475/Rummy-Logos/uirchz3sgsv7ddjo58wy.jpg",
+      appLogo:
+        "https://res.cloudinary.com/dhj9wvmmo/image/upload/v1719039475/Rummy-Logos/uirchz3sgsv7ddjo58wy.jpg",
       downloadLink:
         "https://wingobonus.com/#/pages/bonus/bn?invite_code=94375128",
     },
@@ -513,13 +515,7 @@ function Home() {
   const [selected, setSelected] = useState(0);
   const [searched, setSearched] = useState("");
   const [apps, setApps] = useState(games[selected]);
-
-  // useEffect(() => {
-  //   gsap.from(".apps", {
-  //     opacity: 0,
-  //     duration: 1,
-  //   });
-  // }, [apps]);
+  const [opacity, setOpacity] = useState("opacity-100");
 
   useEffect(() => {
     setApps(() => {
@@ -529,6 +525,12 @@ function Home() {
       return filtered;
     });
   }, [selected, searched]);
+
+  useEffect(() => {
+    setTimeout(() => {
+      setOpacity("opacity-100");
+    }, 500);
+  }, [apps]);
 
   return (
     <div className=" overflow-y-scroll h-[90%]">
@@ -648,6 +650,7 @@ function Home() {
       <div className="h-8 flex mt-3 px-1 gap-1 text-xs">
         <button
           onClick={() => {
+            setOpacity("opacity-0");
             setSelected(0);
             setSearched("");
           }}
@@ -660,6 +663,7 @@ function Home() {
         </button>
         <button
           onClick={() => {
+            setOpacity("opacity-0");
             setSelected(1);
             setSearched("");
           }}
@@ -672,6 +676,7 @@ function Home() {
         </button>
         <button
           onClick={() => {
+            setOpacity("opacity-0");
             setSelected(2);
             setSearched("");
           }}
@@ -689,7 +694,7 @@ function Home() {
         {apps.map((app, index) => {
           return (
             <div
-              className="w-full h-20 border-b border-black my-2 flex justify-between items-center px-4 apps opacity-100"
+              className={`w-full h-20 border-b border-black my-2 flex justify-between items-center px-4 ${opacity} transition-all`}
               key={index}
             >
               <div className="flex gap-3 items-center">
